@@ -8,6 +8,12 @@ pip install SentencePiece
 
 # Download Pretrained Model:
 
+save files links are here...
+tokenizer drive link:
+https://drive.google.com/drive/folders/1-Jo84xAu5d7a3opR5_pgXst2o9mFgJbq?usp=drive_link
+model drive link:
+https://drive.google.com/drive/folders/175r4yt92GfQ8B0RJcRTP5BQAoT734G1X?usp=drive_link
+
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 
 model = PegasusForConditionalGeneration.from_pretrained('tuner007/pegasus_paraphrase')
